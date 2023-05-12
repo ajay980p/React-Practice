@@ -1,0 +1,3 @@
+The async attribute tells the browser to download and execute the JavaScript file asynchronously, meaning that the browser can continue parsing the HTML document while the JavaScript file is downloading. This can improve the performance of the page by reducing the amount of time that the user has to wait for the page to load.
+
+The defer attribute tells the browser to download the JavaScript file but not execute it until the end of the HTML document has been parsed. This can be useful for JavaScript files that are not needed until the page has finished loading, such as scripts that are used to handle user interactions.
